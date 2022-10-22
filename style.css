@@ -1,0 +1,249 @@
+/*font-family: 'Source Sans Pro', sans-serif;
+*/
+body{
+    font-family: 'Questrial', sans-serif !important;
+    background-color: rgb(231, 183, 245) !important;
+    padding-top: 20px;
+}
+
+.custom-shape-divider-top-1666284239 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1666284239 svg {
+    position: relative;
+    display: block;
+    width: calc(208% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1666284239 .shape-fill {
+    fill: #ffffff6d;
+}
+.custom-shape-divider-top-1666284239 .shape-fill:hover{
+    fill: rgba(216, 145, 230, 0.634);
+    transition: all 0.5s ease; 
+}
+
+.NavList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.NavList li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 19px;
+    z-index: 999;
+}
+.NavList a{
+    color: rgba(91, 9, 91, 0.875);
+}
+.NavList li :hover{
+    color: white;
+    transition: all 0.2s ease; 
+}
+.nav__item{
+    padding: 3px;
+}
+.nav__link{
+    text-decoration: none;
+}
+.linkedinPicture{
+    border-radius: 70%;
+    width: 300px;
+    height: 330px;
+    margin-left: 80px;
+}
+.cajaPresentacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.presentacionTitulos{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.presentacion h1{
+    font-size: 55px;
+    color: rgb(203, 117, 235);
+    margin: auto;
+    
+}
+.presentacion h2{
+    font-size: 25px;
+    color: white;
+    margin: auto;
+    letter-spacing: 4px;
+}
+.parrafoPresentacion{
+    width: 350px;
+    font-size: 18px;
+    margin: 0%;
+    font-family: 'Questrial', sans-serif;
+}
+
+.boton__contact{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(162, 99, 182);
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    border: none;
+    margin-top: 35px;
+}
+.boton__contact:hover{ 
+    background-image: linear-gradient(to left, #db9ef3ee, #f5abffc1, #d59befe4);
+    color: rgb(169, 51, 180);
+    transition: all 0.4s ease; 
+}
+
+/* SOBRE MI */
+
+.caja__sobreMi h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(203, 117, 235);
+    margin-top: 30px;
+}
+.caja__sobreMi{
+    display: flex;
+    justify-content: center;
+    
+}
+.sobre__mi{
+    background-color: rgba(255, 255, 255, 0.313);
+    width: 800px;
+    height: 550px;
+    margin-top: 200px;
+}
+.sobre__mi:hover{
+    transition: 1.1s all;
+    transform: translateX((0px));
+    box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.25);
+    }   
+
+.caja__setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.caja__setup p{
+    width: 300px;
+    font-size: 18px;
+    
+}
+.setup{
+    width: 300px;
+    height: 400px;
+    margin-right: 70px;
+}
+.p__b button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(162, 99, 182);
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    border: none;
+}
+.p__b button:hover{
+        background-image: linear-gradient(to left, #db9ef3ee, #f5abffc1, #d59befe4);
+        color: rgb(169, 51, 180);
+        transition: all 0.4s ease; 
+    }
+.p__b p{
+    width: 350px;
+}
+
+.imagen__iconos .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 25px;
+    transition: all 0.5s ease; 
+}
+.imagen__iconos .social-links a:hover {
+    color: black;
+    background-color: #ffffff; 
+}
+.imagen__iconos{
+    display: flex;
+    flex-direction: column;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.social-links i{
+    color: white;
+}
+.social-links i:hover{
+    color: rgba(66, 16, 72, 0.436);
+    transition: 0.2s;
+}
+
+
+/* SKILLS */
+
+.skills__section{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    flex-direction: column;
+}
+.caja__skills{
+    text-align: center;
+}
+
+.caja__skills h2{
+    font-size: 40px;
+    color: rgb(203, 117, 235);
+}
+.caja__skills h3{
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.413);
+}
+.skills__iconos{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.skills__iconos img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    transition: opacity 1s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+
+
